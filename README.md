@@ -2,7 +2,9 @@
 
 ### First commit and push
 
--   After accepting the assignment open the `course.qmd` file in the editor.
+-   After accepting the assignment clone the repository in a new project in RStudio.
+
+-   Open the `course.qmd` file in the RStudio editor.
 
 -   Enter your name in the YAML header of the file.
 
