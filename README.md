@@ -38,4 +38,4 @@
 
 -   Run `renv::snapshot()` , which will record the tidyverse package (and many other) in `renv.lock` .
 
--   Commit and push the `renv.lock` file to the classroom assignment repository.
+-   Add, commit and push the `renv.lock` file to the classroom assignment repository.
