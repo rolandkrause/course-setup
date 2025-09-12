@@ -1,41 +1,46 @@
 # Course setup
-
+  
 ### First commit and push
 
--   After accepting the assignment clone the repository in a new project in RStudio.
+-   After accepting the assignment, _clone_ the repository in _a new project_ in RStudio.
 
--   Open the `course.qmd` file in the RStudio editor.
+-   _Open_ the `course.qmd` file in the RStudio editor.
 
--   Enter your name in the YAML header of the file.
+-   _Enter your *name*_ in the YAML header of the file.
 
--   Save the file.
+-   _Save_ the file.
 
--   Commit `course.qmd` to your local git repository
+-   _Add and commit_ `course.qmd` to your local git repository
 
--   Push the file to the classroom assignment repository.
+-   _Push_ the file to the classroom assignment repository.
 
-### More content and R
+-  _Check_ that the push was successful by checking the website of the repository
 
--   Add a level three header to `course.qmd` about the height of trees
+### Change content, play with Markdown and enter code 
 
--   Write a sentence on the height of some trees.
+-   Add a _level three header_ to `course.qmd` about the height of trees
 
--   Add a code chunk for R that contains\
+-   _Write_ a sentence on the height of some trees.
+
+-   Add a _code chunk_ for R that contains\
     `library(tidyverse)`\
     `count(trees, Height)`
 
--   `trees` is an inbuilt data set of R
+#### Note
+`trees` is an inbuilt data set of R.\
+`count` is an inbuilt function.\
+`Height` is a column in the `trees` data set.
 
--   Save the `course.qmd` file.
 
--   Install the `renv` and the `yaml` package
 
--   Run `renv::activate()`. This will create a `renv.lock` file
+- _Save_ the `course.qmd` file.
 
--   Run `renv::hydrate()`
+- _Render_ the `course.qmd` file. 
 
--   This should install the `tidyverse` package (why?).
+- _Inspect_ the output.
 
--   Run `renv::snapshot()` , which will record the tidyverse package (and many other) in `renv.lock` .
+- _Add, commit and push_ again as needed to bring the changes to the repository.
 
--   Add, commit and push the `renv.lock` file to the classroom assignment repository.
+### Optional
+
+- Change output type of the file to PDF or Presentation.  
